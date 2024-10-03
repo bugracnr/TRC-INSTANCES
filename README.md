@@ -4,7 +4,7 @@ Instances used for the computational experiments of the paper entitled "The role
 
 ---
 
-**Static Experiments:** Folder containing instances used for the static experiments (Sections 7.1-7.3)  
+**Static Experiments:** Folder containing instances used for the static experiments (Sections 7.1-7.3). Subfolders od_[OD_NO] consists of instances with [OD_NO] occasional drivers.  
 - **File Names:** `[The number of ODs]_[The number of tasks]_[Penalty %]_[Utility %]_[Instance ID].txt`  
 - **File Structure:**
     ```
@@ -38,7 +38,7 @@ Instances used for the computational experiments of the paper entitled "The role
 
 ---
 
-**Dynamic Experiments:** Folder containing instances used for the dynamic experiments (Section 7.4)  
+**Dynamic Experiments:** Folder containing instances used for the dynamic experiments (Section 7.4). Subfolders task_arrival_rate_[RATE] consists of instances with task arrival rate of [RATE].
 - **File Names:** `instance_[TASK ARRIVAL RATE]_[TASK AVERAGE TIME IN SYSTEM]_[DRIVER_ARRIVAL_RATE]_[DRIVER AVERAGE TIME IN SYSTEM]_[INSTANCE ID].txt`  
 - **File Structure:**
     ```
